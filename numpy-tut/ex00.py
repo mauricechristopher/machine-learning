@@ -1,3 +1,5 @@
+# Exercise 00: Creating a numpy array
+
 # Create a Numpy array. A NumPy array is a grid of values. 
 # They are similar to lists, except that every element of an array must be the same type. 
 # Write a program that will print the following output.

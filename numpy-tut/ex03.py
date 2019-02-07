@@ -1,7 +1,7 @@
+#  Exercise 03: Inspecting a numpy array 
+
 # # Create a 2d array with 3 rows and 4 columns
-
 # myList = [[1, 2, 3, 4],[3, 4, 5, 6], [5, 6, 7, 8]]
-
 # Inspect its shape, datatype, size, number dimensions
 
 import numpy as np
