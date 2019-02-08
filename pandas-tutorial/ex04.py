@@ -13,6 +13,6 @@ data = {'animal': ['cat', 'cat', 'snake', 'dog', 'dog', 'cat', 'snake', 'cat', '
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 df = pd.DataFrame(data=data, index=labels)
-new = df[((df['age'] <= 4) & (df['age'] >= 2))]
+new = df[df['age'].between(2, 4)]
 
 print(new)
